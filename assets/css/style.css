@@ -17,7 +17,7 @@ html, body {
 /* Footer Container */
 .footer-container {
     min-height: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 #main-body {
@@ -56,7 +56,7 @@ html, body {
 }
 nav {
     
-    margin-top: 16px;
+    margin-top: 22px;
     color: black;
     float: right;
 }
@@ -75,6 +75,12 @@ a {
 
 /* --------------------------------- */
 /* Main section main container about page*/
+#myself {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 0;
+    border: 1px solid black;
+}
 h1{
     /* border: 1px solid black; */
 }
@@ -92,7 +98,7 @@ h1{
     margin: 10px;
     padding: 10px;
     float: left;
-    width: 600px;
+    width: 900px;
 }
 
 
@@ -103,7 +109,7 @@ form{
     display: block;
 }
 .contact-container{
-    width:  600px;
+    width:  900px;
 }
 ul {
     padding: 0;
@@ -147,24 +153,29 @@ textarea{
 
 /* --------------------------------- */
 /* Side section and container */
+.side-container {
+    /* border: 1px solid black; */
+    display: inline-block;
+}
+
 .side-section {
     /* padding: 10px; */
-    max-width: 300px;
+    /* max-width: 300px;
     margin-top: 10px;
-    float: right;
+    float: right; */
     /* border:  1px solid black; */
     /* display: none; */
 }
-.social-icon {
+/* .social-icon {
     margin-right: 3px;
     /* border: 1px solid black; */
     width: 60px;
     height: 60px;
-}
-.special {
+} */
+/* .special {
     width: 80px;
     height: 80px;
-}
+} */
 .up-j {
     margin-bottom: 10px;
 }
@@ -210,7 +221,45 @@ footer {
     .main-section {
         margin-left: 19px;
         padding: 10px;
+        width: 750px;
+        /* border: 1px solid black; */
+        }
+    /* Portfolio */
+    /* Contact Me */
+    .contact-container {
+        overflow: hidden;
         width: 700px;
+    }
+    /* Side section */
+    /* Footer */
+}
+/* --------------------------------- */
+@media only screen and (max-width: 790px) {
+    /* Header and Navigation */
+    .head-container {
+        /* border: 1px solid black; */
+        /* height: 100%; */
+        overflow: auto;
+        text-align: center;
+    
+    }
+
+#logo {
+    /* border: 1px solid black; */
+    display: inline-block;
+    text-align: center;
+}
+
+nav {
+    /* border: 1px solid black; */
+    float: none;
+    text-align: center;
+    
+    /* Main section */
+    .main-section {
+        margin-left: 19px;
+        padding: 10px;
+        width: 750px;
         /* border: 1px solid black; */
         }
     /* Portfolio */
@@ -256,7 +305,7 @@ nav {
     .main-section {
         margin-left: 19px;
         padding: 10px;
-        width: 580px;
+        width: 560px;
         }
     /* Portfolio */
     /* Contact Me */
@@ -270,7 +319,7 @@ nav {
 
 
 /* --------------------------------- */
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 400px) {
     /* Header and Navigation */
 header {
 /* border: 1px solid black; */
@@ -301,10 +350,14 @@ nav {
 
     /* Main section */
     .main-section {
-        margin-left: 19px;
+        /* margin-left: 19px; */
         padding: 10px;
-        width: 380px;
+        width: 300px;
         }
+
+    .main-container {
+        width: 300px;
+    }
     /* Portfolio */
     /* Contact Me */
     .contact-container {
